@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 70px;
+}
+
+.widgets {
+    width: 1200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.widgets > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizes {
+    display: flex;
+}
+
+.sizes > div > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizes > div {
+    width: 400px;
+    height: 200px;
+}
+
+.big {
+    background-color: darkmagenta;
+}
+
+.bigger {
+    background-color: gold;
+}
+
+.huge {
+    background-color: red;
+}
+
+.contacts {
+    width: 1200px;
+    height: 500px;
+    background-color: blue;
+}
+
+.contacts>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
