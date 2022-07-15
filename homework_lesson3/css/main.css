@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.up {
+    width: 100%;
+    height: 300px;
+    background-color: midnightblue;
+    position: relative;
+}
+
+.down {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+
+.middle {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -10px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    border-radius: 10px;
+}
